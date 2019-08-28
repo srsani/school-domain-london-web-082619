@@ -16,4 +16,14 @@ class School
   def roster
     @roster
   end
+  def grade(grade)
+    @roster[grade]
+  end 
+  def sort
+    for i,j in @roster
+      @roster[i] = j.sort
+    end
+    @roster
+  end
+  
 end 
