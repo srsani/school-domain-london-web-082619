@@ -1,3 +1,3 @@
 class School
-  ini
+  def initilize
 end 
